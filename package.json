@@ -1,0 +1,9 @@
+{
+  "name": "ministat",
+  "version": "1.0.0",
+  "description": "A lightweight, real-time Docker stats dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
