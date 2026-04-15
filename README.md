@@ -40,3 +40,16 @@ Works out of the box with OrbStack since it exposes the Docker API on the same s
 - Responsive layout for mobile
 - Zero dependencies beyond Node.js
 - Compatible with Docker Desktop and OrbStack
+
+## Why ministat?
+
+If you just want a browser view of `docker stats`, ministat is the smallest thing that does it.
+
+| Tool | Scope | Deps |
+|---|---|---|
+| **ministat** | Live stats, read-only | None |
+| cAdvisor | Stats + history + metrics export | Heavier |
+| Portainer | Full container management | Heavier |
+| ctop / lazydocker | Terminal UI | — |
+
+Pick ministat if you want a single-file, zero-dep dashboard you can read in one sitting. Pick something else if you need history, alerts, auth, or multi-host.
